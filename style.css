@@ -1,0 +1,51 @@
+body {background-color: #D6D6D6;
+font-family:HELVETICA;
+}
+h1 {
+	color:#C70039;
+	text-align: center;
+}
+
+p {
+  font-size: 20pt;
+  text-align: center;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar a {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+	background-color:#FFC300;
+}
+
+
+.zoom {
+  overflow: hidden;
+ text-align: center;
+}
+
+.zoom img {
+  object-fit: cover;
+  transition: transform 400ms;
+  width: 500px;
+}
+
+.zoom img:hover {
+  transform: scale(1.3);
+}
+
+iframe {
+  align-items: center;
+}
